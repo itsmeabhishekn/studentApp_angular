@@ -1,0 +1,37 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row mt-4">
+        <table class="table">
+            <thead>
+              <tr>
+                
+                <!-- <th scope="col">id</th> -->
+                <th scope="col">name</th>
+                <th scope="col">rollNo</th>
+                <th scope="col">admnNo</th>
+                <th scope="col">mobNo</th>
+                <th scope="col">clgName</th>
+                <th scope="col">parentName</th>
+                <th scope="col">parentMobNo</th>
+                <th scope="col">userName</th>
+                <th scope="col">password</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let i of data">
+               <!--  <td>{{i.id}}</td> -->
+                <td>{{i.name}}</td>
+                <td>{{i.rollNo}}</td>
+                <td>{{i.admnNo}}</td>
+                <td>{{i.mobNo}}</td>
+                <td>{{i.clgName}}</td>
+                <td>{{i.parentName}}</td>
+                <td>{{i.userName}}</td>
+                <td>{{i.password}}</td>
+            
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+</div>
